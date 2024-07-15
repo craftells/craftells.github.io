@@ -7,18 +7,18 @@
             Craftells Store
         </title>
         <style>
-            body{
+            body {
                 background-color: #ffffff;
                 display: flex;
                 flex-direction: row;
                 align-items: center;
                 justify-content: center;
             }
-            .message{
-                font-size: 30px;
+            .message {
+                font-size: 30px;    
                 font-family: cursive;
             }
-            .craft{
+            .craft {
                 font-family: "Rampart One", sans-serif;
                 font-weight: 400;
                 font-style: normal;
@@ -26,7 +26,7 @@
                 color: white;
                 background-color: #9f71f9;
             }
-            .ells{
+            .ells {
                 font-family: "Rampart One", sans-serif;
                 font-weight: 400;
                 font-style: normal;
@@ -34,7 +34,7 @@
                 color: white;
                 background-color: #ff8c52;
             }
-            .content{
+            .content {
                 text-align: center;
                 width: 50vw;
                 height: 100vh;
@@ -48,7 +48,10 @@
             }
             @media screen and (orientation: portrait) {
                 .content {
-                    width: 100vw; /* The width is 100%, when the viewport is 800px or smaller */
+                    width: 100vw; /* The width is 100%, when the screen is portrait */
+                }
+                .message {
+                    font-size: 50px; /* the size is 50%, when the screen is potrait*/
                 }
             }
         </style>
