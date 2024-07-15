@@ -7,10 +7,6 @@
             Craftells Store
         </title>
         <style>
-            .message{
-                font-size: 30px;
-                font-family: cursive;
-            }
             body{
                 background-color: #ffffff;
                 display: flex;
@@ -18,50 +14,54 @@
                 align-items: center;
                 justify-content: center;
             }
+            .message{
+                font-size: 30px;
+                font-family: cursive;
+            }
             .craft{
-               
-                    font-family: "Rampart One", sans-serif;
-                    font-weight: 400;
-                    font-style: normal;
-                    font-size: 100px;
-                    color: white;
-                    background-color: #9f71f9;
-                    // color: #9f71f9;
-                    // background-color: white;
-                  }       
+                font-family: "Rampart One", sans-serif;
+                font-weight: 400;
+                font-style: normal;
+                font-size: 100px;
+                color: white;
+                background-color: #9f71f9;
+            }
             .ells{
-                      font-family: "Rampart One", sans-serif;
-                      font-weight: 400;
-                      font-style: normal;
-                      font-size: 100px;
-                      color: white;
-                      background-color: #ff8c52;
-                      // color: #ff8c52;
-                      // background-color: white;
-                 }
+                font-family: "Rampart One", sans-serif;
+                font-weight: 400;
+                font-style: normal;
+                font-size: 100px;
+                color: white;
+                background-color: #ff8c52;
+            }
             .content{
-                 text-align: center;
-                 width: 50vw;
-                 height: 100vh;
+                text-align: center;
+                width: 50vw;
+                height: 100vh;
             }
             .icons {
                 margin-left: 0.5vw;
                 margin-right: 0.5vw;
             }
             .construction {
-                height: 50vh;
+                max-width: 60%
+            }
+            @media screen and (orientation: portrait) {
+                .content {
+                    width: 100vw; /* The width is 100%, when the viewport is 800px or smaller */
+                }
             }
         </style>
     </head>
     <body>
         <div class="content">
-             <span class="craft">&nbsp;Craft</span ><span class="ells">ells&nbsp;</span>
-             <img class="construction" src="construction.png"/>
-             <p class="message">
-	     <strong>We're still crafting our website. Meanwhile, you can browse our catalogue and order by connecting with us on Instagram or WhatsApp.<strong>
-             </p>
-             <a class="icons" href="https://instagram.com/craftells"><img src="instagram.png"/></a>
-             <a class="icons" href="https://wa.me/+916300250457"><img src="whatsapp.png"/></a>
+            <span class="craft">&nbsp;Craft</span ><span class="ells">ells&nbsp;</span>
+            <img class="construction" src="construction.png"/>
+            <p class="message">
+            <strong>We're still crafting our website.<br/>Meanwhile, you can browse our catalogue and order by connecting with us on Instagram or WhatsApp.<strong>
+            </p>
+            <a class="icons" href="https://instagram.com/craftells"><img src="instagram.png"/></a>
+            <a class="icons" href="https://wa.me/+916300250457"><img src="whatsapp.png"/></a>
         </div>
     </body>
 </html>
